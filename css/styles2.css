@@ -38,7 +38,7 @@ nav{
   border-radius: 5px;
   text-decoration: none;
   color: #444645;
-  font-family: nunito san, sans-serif;
+  font-family: "museo";
   margin: 10px 0;
   
 }
@@ -78,6 +78,7 @@ header{
   display: flex;
   align-items: center;
   margin: 10px;
+  font-family: "museo";
 }
 
 #headimg{
@@ -115,6 +116,7 @@ header{
   padding: 10px;
   margin: 10px;
   text-align: right;
+  font-family: "museo";
 }
 
 #bottomtext{
@@ -148,6 +150,7 @@ a.links:hover{
   display: flex;
   justify-content: flex-start;
   font-size: 2rem;
+  font-family: "museo";
 }
 
 #grid{
@@ -227,11 +230,13 @@ footer{
 
 #search{
   width: 350px;
+  font-family: "museo";
 }
 
 h1{
   font-size: 1rem;
-  color: #444645
+  color: #444645;
+  font-family: "museo";
 }
 
 
