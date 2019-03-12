@@ -1,0 +1,273 @@
+@font-face{
+  font-family: "museo";
+  src: url('../assets/fonts/museo/museo-300-webfont.woff');
+}
+
+body{
+  background: url('https://github.com/jaynadanger/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+}
+
+/*NAVIGATION BAR*/
+nav{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "museo";
+  
+  
+}
+
+#left{
+  display: flex;
+  align-items: center;
+  color: #444645
+  
+}
+
+#right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+
+.button{
+  font-size: .75rem;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #444645;
+  font-family: nunito san, sans-serif;
+  margin: 10px 0;
+  
+}
+
+a.button:hover{
+  background-color: #686868;
+  color: white;
+}
+
+.icons{
+  max-width: 35px;
+  max-height: 35px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+#navimg{
+  width: 200px;
+}
+
+
+/*SLIDER*/
+header{
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+}
+
+#headleft{
+  display: flex;
+  flex-direction: column;
+}
+
+#lefttop{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#headimg{
+  width: 50vw;
+}
+
+.arrow{
+  width: 4vw;
+  height: 4vh;
+}
+
+.img3{
+ width: 19vw;
+  height: 20vh;
+ margin: 5px;
+  
+}
+  
+#leftbottom{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#headright{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+#toptext{
+  color: black;
+  text-decoration: none;
+  background: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+}
+
+#bottomtext{
+  background: white;
+  padding: 10px;
+  margin: 10px;
+  font-family: "museo"
+}
+
+h2{
+  color: gray;
+}
+
+.links{
+  text-decoration: none;
+  background: gray;
+  color: white;
+  padding: 6px;
+  font-family: "museo"
+}
+
+a.links:hover{
+  background: red;
+}
+}
+
+/*MAIN*/
+
+#maintxt{
+  margin: 40px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+}
+
+#grid{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.square{
+  width: 20%;
+  margin: 2% 2%;
+}
+
+/*VIEW MORE*/
+
+#vm{
+  display: flex;
+  justify-content: center;
+}
+
+.viewmore{
+  text-decoration: none;
+  color: white;
+  background: url('https://github.com/jaynadanger/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+  background-color: #a6a69d;
+  background-blend-mode: multiply;
+  width:300px;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "museo";
+}
+
+a.viewmore:hover{
+  background-color: gray;
+  
+}
+
+/*LAST BAR*/
+
+#bar{
+  background-color: #444645;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  font-size: 2.5rem;
+  font-family: "museo";
+ 
+}
+
+#barimage{
+  max-width: 40px;
+  max-height: 40px;
+  margin: 3px;
+  border-radius: 5px;
+  display: flex;
+}
+
+#smalltxt{
+  font-size: 1rem;
+}
+
+/*FOOTER*/
+
+footer{
+  display: flex;
+  background: url('https://github.com/jaynadanger/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+  background-color: #a6a69d;
+  background-blend-mode: multiply;
+  width:95vw;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "museo";
+}
+
+#search{
+  width: 350px;
+}
+
+h1{
+  font-size: 1rem;
+  color: #444645
+}
+
+
+#footerimg{
+  width: 80px;
+  height: 60px;
+}
+
+.white{
+  color: white;
+}
+
+
+#footgrid{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.footsec{
+  width: 33%
+}
+
+.footsquare{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  flex-wrap: wrap;
+  padding: 4px;
+  
+}
+
+
+#read{
+  text-decoration: none;
+  
+}
+
+
